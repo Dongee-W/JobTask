@@ -64,9 +64,7 @@ val model = ALS.train(ratings, rank, numIterations, 0.01)
 ```
 
 # Performance metrics (驗證方式)
-
-
-答案是每個顧客最後一筆訂單的商品(List[商品]), Collaborative filtering 會推薦10樣商品給每個人, 兩個集合可以計算precision, recall, f-score, 最後平均f-score為驗證結果
+答案是每個顧客最後一筆訂單的商品(List[商品]), Collaborative filtering 會推薦10樣商品給每個人, 兩個集合可以計算precision, recall, f-score, 最後平均f-score為驗證結果
 
 
 ```
